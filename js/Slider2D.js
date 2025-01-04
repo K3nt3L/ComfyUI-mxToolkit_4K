@@ -6,7 +6,7 @@ class MXSlider2D
     constructor(node)
     {
         this.node = node;
-        this.node.properties = { valueX:512, valueY:512, minX:0, minY:0, maxX:1024, maxY:1024, stepX:128, stepY:128, decimalsX:0, decimalsY:0, snap: true, dots: true, frame: true, frameAlert:0 };
+        this.node.properties = { valueX:1024, valueY:1024, minX:0, minY:0, maxX:2048, maxY:2048, stepX:128, stepY:128, decimalsX:0, decimalsY:0, snap: true, dots: true, frame: true, frameAlert:0 };
         this.node.intpos = { x:0.5, y:0.5 };
         this.node.size = [210, 210];
         const fontsize = LiteGraph.NODE_SUBTEXT_SIZE;
